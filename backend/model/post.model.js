@@ -1,18 +1,19 @@
 import mongoose from "mongoose";
 
+
 const schema=mongoose.Schema;
 
 const postSchema=schema({
     userId:{
 type:mongoose.Schema.Types.ObjectId,
-        ref:User
+        ref:"User"
     },
     body:{
 type:String,
         required:true
     },
     likes:{
-
+type:Number
     },
     createdAt:{
 type:Date

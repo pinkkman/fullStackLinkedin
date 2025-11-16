@@ -5,11 +5,11 @@ import Post from "./post.model.js";
 const commentSchema=mongoose.Schema({
     userId:{
         type:mongoose.Schema.Types.ObjectId,
-        ref:User
+        ref:"User"
     },
     postId:{
 type:mongoose.Schema.Types.ObjectId,
-        ref:Post
+        ref:"Post"
     },
     body:{
 type:String,
