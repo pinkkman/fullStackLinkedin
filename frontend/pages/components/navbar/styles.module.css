@@ -1,0 +1,14 @@
+.container{
+    padding: 1.2rem;
+}
+
+.navButtonJoin{
+
+}
+.navBar{
+    display:flex;
+    justify-content: space-between;
+}
+.navbarOptionContainer{
+    display: flex;
+}
